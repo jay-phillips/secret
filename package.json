@@ -15,6 +15,11 @@
     "md5": "^2.2.1",
     "mongoose": "^5.9.20",
     "mongoose-encryption": "^2.0.2",
-    "nodemon": "^2.0.4"
+    "mongoose-findorcreate": "^3.0.0",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-google-oauth2": "^0.2.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1"
   }
 }
