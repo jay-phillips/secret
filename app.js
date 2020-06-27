@@ -45,7 +45,8 @@ db.once('open', function() {
 const userSchema = new mongoose.Schema({
 
     email: String,
-    password: String
+    password: String,
+    googleId: String
 });
 
 userSchema.plugin(passportLocalMongoose);
@@ -150,7 +151,7 @@ app.post("/register", function(req, res){
         else{
             console.log("Successfully Added");
 
-        }
+        } 
         })
         res.render("home");
     })
